@@ -76,7 +76,7 @@ public class OdontologDaoH2 implements IDao<Odontologo> {
             }
         }
 
-
+        LOGGER.info("Odontologo con matricula: "+ odontologoEncontrado.getMatricula());
         return odontologoEncontrado;
     }
 
